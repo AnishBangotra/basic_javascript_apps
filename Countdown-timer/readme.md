@@ -1,3 +1,3 @@
 #Countdown-timer
 
-![Screenshot](final.jpg)
+![Screenshot](js_timer.jpg)
