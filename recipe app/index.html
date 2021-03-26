@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recipes App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+          <input type="text" placeholder="search your dish here!" id="search-term"><button id="search"><i class="fa fa-search"></i></button>
+      </header>
+
+      <div class="fav-container">
+          <h3>Favorite Meals</h3>
+          <ul class="fav-meals" id="fav-meals">
+          </ul>
+      </div>
+      <div class="meals" id="meals"></div>
+
+    </div>
+    <div class="popup-container hidden" id='meal-popup'>
+      <div class="popup">
+        <button id="close-popup" class="close-popup"><i class="fa fa-times"></i></button>
+            <div class="meal-info" id="meal-info">
+            </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js">
+    </script>
+  </body>
+</html>
