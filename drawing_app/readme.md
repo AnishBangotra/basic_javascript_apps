@@ -1,2 +1,2 @@
 ## Drawing App
-![Screenshot].(final_img.jpg)
+![Screenshot](final_img.jpg)
