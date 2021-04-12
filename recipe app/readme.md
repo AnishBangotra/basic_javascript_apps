@@ -1,2 +1,2 @@
-#recipe app
+# recipe app
 ![Screenshot](final_pic.jpg)
