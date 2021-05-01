@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  overflow: hidden;
+}
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+input{
+  border: none;
+  border-radius: 25px;
+  padding: 1rem;
+  background-color: white;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-family: inherit;
+  position: relative;
+  z-index: 1000;
+}
+input: focus {
+  outline: none;
+}
+#fore{
+  display: flex;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+#humidity{
+  padding: 3rem;
+  position: relative;
+}
+#pressure{
+  position: relative;
+  padding: 3rem;
+}
+.weather{
+    text-align: center;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+.weather img{
+    transform: scale(2);
+}
+.weather h2{
+  margin-bottom: 0;
+  font-size: 35px;
+}
+.weather h1{
+   font-size: 4.5rem;
+}
+.weather h3{
+   font-size: 1.3rem;
+}
+.weather h1 .deg{
+   padding-top: 3rem;
+   margin-top: 0;
+   display: inline;
+   font-size: 4rem;
+}
